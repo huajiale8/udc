@@ -1,0 +1,448 @@
+
+.main {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 280rem);
+
+  // 顶部大图
+  #top {
+    display: flex;
+    margin-top: 60rem;
+    align-items: center;
+    width: 100%;
+    background-color: #c7c7c7;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // 中间部分
+  .content {
+    margin: 0 auto;
+    max-width: 1000rem;
+    padding: 2vw;
+
+    // 大标题
+    .headline {
+      margin-top: 84rem;
+      height: 39rem;
+      font-size: 30rem;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.9);
+      line-height: 39rem;
+    }
+
+    // 小标题
+    .subtitle {
+      margin-top: 64rem;
+      height: 32rem;
+      font-size: 24rem;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.9);
+      line-height: 32rem;
+    }
+
+    // 文本内容
+    .text-content {
+      margin-top: 23rem;
+      width: 100%;
+      font-size: 16rem;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.9);
+      line-height: 24rem;
+      word-wrap: break-word;
+    }
+
+    // 大图
+    .image {
+      margin-top: 24rem;
+      width: 100%;
+      background: #f4f3f2;
+      display: flex;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    // 818子业务
+    .child-business {
+      margin-top: 24rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .business {
+        width: 455rem;
+        margin-bottom: 1vw;
+        background: #f4f3f2;
+      }
+
+      .text {
+        width: 100%;
+        background: white;
+        padding-top: 8rem;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    // 中文标志
+    .text-sign {
+      margin-top: 8rem;
+      height: 19rem;
+      font-size: 14rem;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 19rem;
+    }
+
+    // 两张固定大图
+    .images {
+      margin-top: 24rem;
+      width: 100%;
+      height: 325.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      div:nth-child(1) {
+        width: 450rem;
+        margin-right: 2vw;
+        background: #f4f3f2;
+      }
+
+      div:nth-child(2) {
+        width: 450rem;
+        background: #f4f3f2;
+      }
+
+    }
+
+    // 视频播放
+    .videos {
+      width: 100%;
+      height: 325.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .video {
+        height: 200rem;
+        width: 95%;
+        margin-right: 10rem;
+      }
+
+      .video-tow {
+        height: 200rem;
+        width: 95%;
+      }
+    }
+
+    // 两张固定大图 下的文字
+    .lines {
+      width: 100%;
+      padding-top: 8rem;
+      background: white;
+      font-size: 14rem;
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    // 使用规范下载
+    .standard {
+      margin: 64rem 0;
+      width: 201rem;
+      height: 44rem;
+      display: flex;
+      justify-content: space-around;
+      background: #f2f2f2;
+      border-radius: 8rem;
+      align-items: center;
+      font-size: 24rem;
+    }
+
+    .standard:hover {
+      color: #00b2e2;
+      margin: 64rem 0;
+      width: 201rem;
+      height: 44rem;
+      display: flex;
+      justify-content: space-around;
+      background: #f2f2f2;
+      border-radius: 8rem;
+      align-items: center;
+      font-size: 24rem;
+      cursor: pointer;
+    }
+
+    // 使用指南SVG
+    .svg {
+      display: flex;
+      margin-top: 31rem;
+      justify-content: space-between;
+
+      div:nth-child(1) {
+        text-align: left;
+        margin-top: 8rem;
+        width: 100%;
+        height: 19rem;
+        font-size: 14rem;
+      }
+
+      div:nth-child(2) {
+
+        text-align: left;
+        margin-top: 8rem;
+        width: 100%;
+        height: 19rem;
+        font-size: 14rem;
+        padding-left: 60rem;
+      }
+    }
+
+    // 使用指南正确使用
+    .text-border {
+      font-size: 16rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24rem;
+      padding: 5rem;
+      width: 90rem;
+      background: #f2f2f2;
+      opacity: 1;
+      text-align: center;
+      border: 1rem solid #00b2e2;
+    }
+
+    .text-noneBorder {
+      font-size: 16rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24rem;
+      padding: 5rem;
+      width: 90rem;
+      background: #f2f2f2;
+      opacity: 1;
+      text-align: center;
+    }
+  }
+}
+
+// home页面的pc样式
+.home-pc {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  justify-content: space-between;
+
+  .left {
+    width: 48%;
+    height: 100%;
+
+    .content {
+      height: 51.45%;
+      width: 431rem;
+
+      margin-left: 12vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      > :last-child {
+        color: white;
+
+        div:nth-child(1) {
+
+          width: 100%;
+          font-size: 12rem;
+          color: rgb(255, 255, 255);
+        }
+
+        div:nth-child(2) {
+          margin-top: 8rem;
+          width: 100%;
+          font-size: 10rem;
+          color: rgb(255, 255, 255);
+
+          span:nth-child(2) {
+            margin-left: 15rem;
+          }
+        }
+      }
+
+      p:nth-child(2) {
+        margin-top: 90rem;
+        height: 34rem;
+        font-size: 26rem;
+        color: rgb(255, 255, 255);
+      }
+
+      p:nth-child(3) {
+        margin-top: 25rem;
+        height: 34rem;
+        font-size: 26rem;
+        color: rgb(255, 255, 255);
+      }
+
+      p:hover {
+        color: #00b2e2;
+        cursor: pointer;
+      }
+
+
+    }
+  }
+
+  .content-header {
+    display: flex;
+    justify-content: space-between;
+
+    div:nth-child(1) {
+      width: 94rem;
+      height: 94rem;
+      background: url('../assets/image/pc/home-logo.png') no-repeat center center;
+      background-size: cover;
+    }
+
+    div:nth-child(2) {
+      color: white;
+      height: 94rem;
+      font-size: 60rem;
+      line-height: 94rem;
+    }
+  }
+
+  .right {
+    width: 51%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+
+    img {
+      margin-right: 20rem;
+    }
+  }
+}
+
+// 合作伙伴
+.partner-main {
+  background-color: white;
+  color: #333;
+
+  .img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 60rem;
+    background-color: #c7c7c7;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .outside {
+    min-height: calc(100vh - 5vh - 424rem);
+    width: 65%;
+    margin: 0 auto 40rem auto;
+
+    // 大标题
+    .headline {
+      margin-top: 84rem;
+      width: 210rem;
+      height: 39rem;
+      font-size: 30rem;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.9);
+      line-height: 39rem;
+    }
+
+    // 文本内容
+    .text-content {
+      margin-top: 23rem;
+      width: 100%;
+      font-size: 16rem;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.9);
+      line-height: 24rem;
+      word-wrap: break-word;
+    }
+
+    .outside-img:nth-child(4n) {
+      margin-right: 0;
+    }
+
+    .outside-img {
+      margin-right: 2%;
+      width: 23.5%;
+
+      .partner-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: #f4f3f2;
+
+        img {
+          object-fit: cover;
+          padding: 30rem;
+        }
+
+      }
+
+      .text {
+        margin: 10rem 0 20rem 0;
+      }
+
+      .outside-img-A:hover {
+        cursor: pointer;
+      }
+    }
+
+    .flex {
+      display: flex;
+      margin-top: 4vh;
+      flex-wrap: wrap; //弹性换行
+    }
+  }
+}
+
+// 溢出隐藏
+.active-hide {
+  overflow: hidden;
+  height: 100vh;
+}
